@@ -2,7 +2,7 @@
 echo ========================================
 echo   Building Flutter web app...
 echo ========================================
-flutter build web --base-href /darshitha_portfolio/
+flutter build web --base-href /uiflutter_portfolio/
 if %errorlevel% neq 0 (
     echo.
     echo BUILD FAILED. Fix the errors above before deploying.
@@ -31,6 +31,6 @@ git push origin main
 echo.
 echo ========================================
 echo   Done! Check your live site in 1-2 minutes:
-echo   https://darshitha-18.github.io/darshitha_portfolio/
+echo   https://darshitha-18.github.io/uiflutter_portfolio/
 echo ========================================
 pause
